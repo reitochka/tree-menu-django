@@ -51,7 +51,6 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'tree_menu.urls'
-SITE_URL = 'http://185.146.156.250/tree_menu/'
 
 TEMPLATES = [
     {
