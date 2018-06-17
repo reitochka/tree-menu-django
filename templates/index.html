@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load menu_tag %}
+{% block title %}
+    Index
+{% endblock %}
+
+{% block content %}
+    <h3 class="mb-4"> Главная страница </h3>
+
+    {% draw_menu 'main_menu' %}
+
+    {% draw_menu 'little_menu' %}
+
+{% endblock %}

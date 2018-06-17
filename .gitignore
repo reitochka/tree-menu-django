@@ -1,0 +1,7 @@
+/app/__pycache__/
+/tree_menu/__pycache__/
+/app/migrations/__pycache__/
+/app/migrations/
+/app/media/
+/db.sqlite3
+/.idea

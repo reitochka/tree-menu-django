@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load menu_tag %}
+{% block title %}
+    Page
+{% endblock %}
+
+{% block content %}
+
+    <h3 class="mb-4"> Это страница {{ name }} </h3>
+
+    {% draw_menu 'main_menu' %}
+
+    {% draw_menu 'little_menu' %}
+
+{% endblock %}
