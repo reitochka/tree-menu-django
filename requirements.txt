@@ -1,0 +1,7 @@
+cffi==1.11.5
+Django==2.0.6
+greenlet==0.4.13
+gunicorn==19.8.1
+pkg-resources==0.0.0
+pytz==2018.4
+readline==6.2.4.1

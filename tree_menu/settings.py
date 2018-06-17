@@ -25,7 +25,7 @@ SECRET_KEY = 'y5a6q&5ms_5mc%k^8u6@(ynsrj3hd5p!dm3cvop=d^vwc$3owi'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['185.146.156.250']
 
 
 # Application definition
@@ -51,6 +51,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'tree_menu.urls'
+SITE_URL = 'http://185.146.156.250/tree_menu/'
 
 TEMPLATES = [
     {
@@ -119,10 +120,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
-STATIC_URL = '/static/'
-# STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
+
+STATIC_URL = '/static/'
+#STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
